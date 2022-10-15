@@ -1,7 +1,5 @@
 # mvc-django - Vista de Mi Familia
 
-## Deploy GLITCH
-
 ### Desafío entregable del curso de Python y Django
 
 #### Objetivo: crear nuestra primera aplicación Django, utilizar urls, views, models y templates.
