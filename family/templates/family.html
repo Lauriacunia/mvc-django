@@ -9,11 +9,11 @@
 </head>
 <body>
    <div class="container">
-        <div class="notification is-primary mt-6 is-flex-wrap-wrap">
-            <h1>This is <strong>My Family</strong>.</h1>
-            <div class="columns">
+        <div class="notification is-primary mt-6">
+            <h1 class="is-size-2" > <strong>Mi Familia</strong>.</h1>
+            <div class="is-flex is-justify-content-center">
                 {% for member in members %}
-                <div class="card m-6">
+                <div class="card m-5" style="width: 230px">
                     <div class="card-image">
                         <figure class="image is-4by3">
                             <img src={{member.thumbnail}} alt="Placeholder image">
@@ -32,11 +32,9 @@
                             </div>
                         </div>
                 
-                        <div class="content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus nec iaculis mauris.                             
+                        <div class="content has-text-justified">
+                            {{ member.description}}                           
                             <br>
-                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                         </div>
                     </div>
                 </div>
